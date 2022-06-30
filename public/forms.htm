@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>FORMS</title>
+    </head>
+    <body>
+        <table borders="0" cellspacing = 22 >
+        <form action="formsubmit" method ="post" target="blank">
+           <tr>
+               <th> name:</th>
+               <td><input type = "textbox" name = "name" placeholder = "enter  name in capitals"> </td>
+           </tr>
+           <tr>
+               <th> register number : </th>
+               <td> <input type = "textbox" name = "reg" placeholder = "enter registration no "></td>
+           </tr>
+           <tr>
+               <th>Date of Birth</th>
+               <td><input type = "date" name = "dob"></td>
+           </tr>
+            <tr>
+                <th>password:</th>
+                <td><input type = "password" placeholder="enter password"></td>
+            </tr>
+            <tr>
+                <th>E-mail</th>
+                <td><input type = "email" name = "email"></td>
+            </tr>
+            <tr>
+                <th>gender:</th> 
+                <th>
+                <input type = "radio" name = "gender" checked  >female
+                <input type = "radio" name = "gender">male
+                </th>
+                
+            </tr>
+            <tr>
+                <th>interested courses : </th>
+                <td>
+                    <input type = "checkbox" name = "c" > c programming <br>
+                    <input type = "checkbox" name = "p" > python programming <br>
+                    <input type = "checkbox" name = "j" > java programming <br>
+                    <input type = "checkbox" name = "w" > web development <br>
+                    <input type = "checkbox" name = "c+" > c++ programming <br>
+                </td>
+            </tr>
+            <tr>
+                <th>department</th>
+                <td>
+                <select  name = "dpt" >
+                <option>cse</option>
+                <option>ece</option>
+                <option>ai&ds</option>
+                <option>eee</option>
+                <option>civil</option>
+                </td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td> <textarea rows="5" cols="20" name = "address" > </textarea></td>
+            </tr>
+            
+            <tr>
+                <td><input type="submit" name ="s" value = submit></td>
+                <td><input type="reset" name = "r" value="reset" ></td>
+            </tr>
+        </form>
+       </table>
+    </body>
+</html>
